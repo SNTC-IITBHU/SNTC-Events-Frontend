@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.eventdashboard{
+    position: absolute;
+    width: 650px;
+    height: 90px;
+    left: 400px;
+    top: 60px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size:60px;
+    line-height: 109px;
+    
+    color: #FFFFFF;
+    
+}
+.container1{
+position: absolute;
+width: 800px;
+height: 330px;
+left: 245px;
+top: 175px;
+border-radius: 40px;
+background: #0a0a0a;
+    
+    
+}
+.username{
+position: absolute;
+width: 20px;
+height: 33px;
+left: 50px;
+top: 18px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 43px;
+
+color: #FFFFFF;
+}
+.email{
+    position: absolute;
+    width: 700px;
+    height: 40px;
+    left: 50px;
+    top: 60px;
+    background: #74797D;
+    border-radius: 5px;  
+}
+.credential{
+    position: absolute;
+    width: 20px;
+    height: 33px;
+    left: 50px;
+    top: 105px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 43px;
+    
+}
+.password{
+    position: absolute;
+    width: 700px;
+    height: 40px;
+    left: 50px;
+    top: 150px;
+    background: #74797D;
+    border-radius: 5px;  
+}
+.password input{
+    position: absolute;
+    width: 700px;
+    height: 40px;
+    left: 50px;
+    top: 150px;
+    background: #74797D;
+    border-radius: 5px;  
+}
+.loginbutton{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 350px;
+    top: 240px;
+    background: #74797D;
+    border-radius: 5px; 
+    font-family: 'Montserrat'; 
+    color: #FFFFFF;
+}
+.loginbutton:hover{
+    background: #0a0a0a;
+    color: #FFFFFF;
+}
