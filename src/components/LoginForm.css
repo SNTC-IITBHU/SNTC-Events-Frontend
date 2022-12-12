@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.events-dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.events-dashboard h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 90;
+    font-size: 80px;
+    line-height: 109px;
+    color: #FFFFFF;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.rectangle-div {
+    background-color: rgba(116, 121, 125, 1);
+    width: 60rem;
+    height: 14rem;
+    border-radius: 5px
+}
+
+.userName-label {
+    font-family: 'Montserrat';
+    /* font-style: normal; */
+    font-weight: 50;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+.password-label {
+    font-family: 'Montserrat';
+    /* font-style: normal; */
+    font-weight: 50;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+.errors {
+    color: red;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+
+.login-button button {
+    font-family: 'Montserrat';
+    /* font-style: normal; */
+    font-weight: 50;
+    font-size: 25px;
+    line-height: 25px;
+
+    color: black;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+}
+
+.rectangle-input,
+.rectangle-input1 {
+    width: 99%;
+    position: relative;
+    margin: 5px;
+
+
+    border-radius: 5px;
+}
+
+.errors {
+    margin: 5px;
+}
